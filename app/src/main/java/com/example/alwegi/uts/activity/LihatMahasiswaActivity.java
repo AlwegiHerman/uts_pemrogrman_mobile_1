@@ -1,21 +1,16 @@
 package com.example.alwegi.uts.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutCompat;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
-import com.example.alwegi.uts.MahasiswaAdapter;
 import com.example.alwegi.uts.R;
 import com.example.alwegi.uts.adapter.MahasiswaAdapter;
 import com.example.alwegi.uts.helper.DBHandler;
-import com.example.alwegi.uts.helper.RecyclerItemClickListener;
-
 import com.example.alwegi.uts.helper.RecyclerItemClickListener;
 import com.example.alwegi.uts.model.Mahasiswa;
 
